@@ -3,9 +3,19 @@
   "version": "1.0.0",
   "description": "StreamSphere is the perfect platform for easy video streaming and content sharing.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint src --ignore-path .eslintignore --ext .js",
+    "format": "prettier --write src/**/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "towhidulislamalif",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "prettier": "^3.1.1"
+  }
 }
