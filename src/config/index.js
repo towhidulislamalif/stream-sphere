@@ -12,6 +12,9 @@ const config = {
   refreshTokenSecret: process.env.REFRESH_TOKEN_SECRET,
   accessTokenExpiry: process.env.ACCESS_TOKEN_EXPIRY,
   refreshTokenExpiry: process.env.REFRESH_TOKEN_EXPIRY,
+  cloudinaryCloudName: process.env.CLOUDINARY_CLOUD_NAME,
+  cloudinaryApiKey: process.env.CLOUDINARY_API_KEY,
+  cloudinaryApiKeySecret: process.env.CLOUDINARY_API_SECRET,
 };
 
 export default config;
